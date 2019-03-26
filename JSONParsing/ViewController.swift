@@ -22,6 +22,24 @@ class ViewController: UIViewController {
             let data = try Data(contentsOf: url)
             let json = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
             print(json)
+            
+            guard let array = json as? [Any] else{
+                return
+            }
+            for dict in array{
+                guard let userDict = dict as? [String:Any] else{
+                    return
+                }
+                guard let email = userDict["email"] as? String else{
+                    return
+                }
+                guard let name = userDict["name"] as? String else{
+                    return
+                }
+                print(email)
+                print(name)
+            }
+            print(array.count)
         }
         catch{
             print(error)

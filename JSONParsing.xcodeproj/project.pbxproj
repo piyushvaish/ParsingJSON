@@ -12,6 +12,7 @@
 		521630262249EE37000B70AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521630242249EE37000B70AA /* Main.storyboard */; };
 		521630282249EE3A000B70AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521630272249EE3A000B70AA /* Assets.xcassets */; };
 		5216302B2249EE3A000B70AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521630292249EE3A000B70AA /* LaunchScreen.storyboard */; };
+		521630332249EEBB000B70AA /* JsonApi.txt in Resources */ = {isa = PBXBuildFile; fileRef = 521630322249EEBB000B70AA /* JsonApi.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		521630272249EE3A000B70AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5216302A2249EE3A000B70AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5216302C2249EE3A000B70AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521630322249EEBB000B70AA /* JsonApi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JsonApi.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		5216301F2249EE37000B70AA /* JSONParsing */ = {
 			isa = PBXGroup;
 			children = (
+				521630322249EEBB000B70AA /* JsonApi.txt */,
 				521630202249EE37000B70AA /* AppDelegate.swift */,
 				521630222249EE37000B70AA /* ViewController.swift */,
 				521630242249EE37000B70AA /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5216302B2249EE3A000B70AA /* LaunchScreen.storyboard in Resources */,
+				521630332249EEBB000B70AA /* JsonApi.txt in Resources */,
 				521630282249EE3A000B70AA /* Assets.xcassets in Resources */,
 				521630262249EE37000B70AA /* Main.storyboard in Resources */,
 			);
